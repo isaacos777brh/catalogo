@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Os Favoritos da Branquela</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #fffdf4;
+      margin: 0;
+      padding: 0;
+      color: #444;
+    }
+
+    header {
+      background-color: #fff3b0;
+      padding: 40px 20px;
+      text-align: center;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+
+    header h1 {
+      font-size: 2.5em;
+      margin: 0;
+      color: #5b4d3a;
+    }
+
+    .catalogo {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 40px 20px;
+    }
+
+    .esmalte {
+      background-color: #fffce8;
+      border-radius: 12px;
+      padding: 20px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+      transition: transform 0.2s ease;
+      text-align: center;
+    }
+
+    .esmalte:hover {
+      transform: scale(1.02);
+    }
+
+    .esmalte h2 {
+      margin-top: 0;
+      font-size: 1.2em;
+      color: #333;
+    }
+
+    .marca {
+      font-weight: bold;
+      color: #888;
+      margin-top: 10px;
+    }
+
+    .esmalte img {
+      width: 100%;
+      max-width: 120px;
+      height: auto;
+      margin: 10px auto;
+      display: block;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #fff3b0;
+      color: #5b4d3a;
+      font-size: 1em;
+    }
+
+    /* Ajuste fino para telas pequenas */
+    @media (max-width: 480px) {
+      header h1 {
+        font-size: 1.8em;
+      }
+
+      .catalogo {
+        padding: 20px 10px;
+      }
+
+      .esmalte {
+        padding: 15px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Os Favoritos da Branquela 💛</h1>
+  </header>
+
+  <div class="catalogo">
+    <div class="esmalte">
+      <h2>Amarelindo</h2>
+      <img src="image,/23232-1-1.webp" alt="amarelindo-esmalte">
+      <div class="marca">Risqué</div>
+    </div>
+    <div class="esmalte">
+      <h2>A Vez da Penélope</h2>
+      <img src="image,/vez-da-penelope.png" alt="vez-da-penelope-esmalte">
+      <div class="marca">Risqué</div>
+    </div>
+    <div class="esmalte">
+      <h2>Preto</h2>
+      <img src="image,/preto-impala.png" alt="preto-esmalte">
+      <div class="marca">Impala</div>
+    </div>
+    <div class="esmalte">
+      <h2>Paraíso</h2>
+      <img src="image,/paraiso-impala.png" alt="paraiso-impala">
+      <div class="marca">Impala</div>
+    </div>
+    <div class="esmalte">
+      <h2>Melissa</h2>
+      <img src="image,/41u6LTCjFtL._AC_UF1000_1000_QL80_-removebg-preview.png" alt="melissa-esmalte">
+      <div class="marca">Risqué</div>
+    </div>
+    <div class="esmalte">
+      <h2>Azul Livremente</h2>
+      <img src="image,/azulivremente-risque.png" alt="azulivremente-esmalte">
+      <div class="marca">Risqué</div>
+    </div>
+    <div class="esmalte">
+      <h2>Azul Pesadão</h2>
+      <img src="image,/azul-pesadao-risque.png" alt="azul-bigpesado-esmalte">
+      <div class="marca">Risqué</div>
+    </div>
+    <div class="esmalte">
+      <h2>Carmim</h2>
+      <img src="image,/carmim-risque.png" alt="carmim-esmalte">
+      <div class="marca">Risqué</div>
+    </div>
+    <div class="esmalte">
+      <h2>Triangulum</h2>
+      <img src="image,/triangulum-risque.png" alt="triangulum-esmalte">
+      <div class="marca">Risqué</div>
+    </div>
+    <div class="esmalte">
+      <h2>Beleza Rara</h2>
+      <img src="image,/beleza-rara-impala-removebg-preview.png" alt="beleza-rara-esmalte">
+      <div class="marca">Impala</div>
+    </div>
+  </div>
+
+  <footer>
+    Porque cada cor conta um pedacinho do que você é. Te amo, branquela 💅✨
+  </footer>
+</body>
+</html>
